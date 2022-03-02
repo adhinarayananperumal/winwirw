@@ -1,7 +1,0 @@
-package java8concept;
-
-public interface Tax {
-
-	void calculateTax(double salary);
-
-}

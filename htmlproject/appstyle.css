@@ -1,0 +1,82 @@
+p{
+ color:white;
+}
+
+
+#scb{
+color:blue;
+}
+
+
+.citi {
+  color: red;
+}
+
+
+.border5x {
+  border-style: solid;
+  border-width: 5px;
+}
+
+
+.borderColor10xRed {
+  border-style: solid;
+  border-color: red;
+  border-width: 5px;
+}
+
+#client{
+ display: table-cell;
+  width: 300px;
+  height: 200px;
+  vertical-align: middle;
+  border: 1px solid red;
+}
+
+#cl{
+  width: 200px;
+  height: 100px;
+   margin: auto;
+  border: 1px solid green;
+
+}
+
+.ml10x{
+  margin-left: 10px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+
+wrapperline{
+width: 300px;
+float: left;
+height: 60px;
+background-color:#CCCCCC;
+}
+
+
+
+div.wrapperline
+{
+  margin:2%;
+  border: none;
+  height: auto;
+  width: auto;
+  float: left;
+}
+
+div.wrapperline div
+{
+  display:inline-block;
+  width:200px;
+  height:300px;
+  padding: 15px;
+  margin: auto;
+  border:1px solid red;
+  background-color:#fffff7;
+  -moz-border-radius:25px; /* Firefox */
+  border-radius:25px;
+}

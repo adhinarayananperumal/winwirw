@@ -1,0 +1,90 @@
+<html>
+
+<head>
+<title>   Employee Registration Form </title>
+</head>
+
+
+<body>
+
+	<a href="welcome.html"> Go to Home  Page </a>
+	<hr>
+	<h3>  Employee registration Form </h3>
+
+<form>
+
+      <label for="fn"> First Name : </label>
+	<input type="text" id="fn"  name="firstname"/>
+
+      <br>
+
+ 	<label for="ln"> Last Name : </label>
+	<input type="text" id="ln"  name="lastname"/>
+
+ 	<br>
+
+      <label for="age"> Age : </label>
+	<input type="number" id="age"  name="age"/>
+
+      <br>
+
+      <label for="gender"> Gender : </label>
+	<input type="radio"  name="gender" value="m"> Male </input>
+	<input type="radio"  name="gender" value="f"> Female </input>
+
+      <br>
+
+      <p> Choose the identity proof you have : </p>
+      <label for="dl">Driving License :</label>
+	<input type="checkbox"  id="dl" name="dl" value="dl">  </input>
+      
+
+ 	<label for="adhar">Adhar :</label>
+	<input type="checkbox"  id="adhar" name="adhar" value="a" checked> </input>
+      
+
+ 	<label for="pp">Passport :</label>
+	<input type="checkbox"  id="pp"  name="passport" value="pp"> </input>
+      
+ 	<br> 	<br>
+
+
+      <label for="education">Choose your education</label><br>
+	<select name="education" id="education" multiple>
+		<option value="">--Please choose an option--</option>
+		<option value="be">Bachelor of Engineering</option>
+		<option value="me">Master of Engineering</option>
+		<option value="mca">Master of Computer Application</option>
+		<option value="msc">Master of Science</option>
+		<option value="phd">Docterate</option>
+		<option value="dip">Diploma</option>
+	</select>
+
+	<br> 	<br>
+
+	<label for="aboutme">Tell about yourself:</label><br>
+	<textarea id="aboutme	" name="ae"
+          rows="4" cols="40">Myself more confident and comitted towards my daily task completion.
+	</textarea>
+
+<br>
+
+	<input type="button"  value="Register Employee b">
+	<input type="submit" value="Register Employee s">
+
+</form>
+ 	<br> 	<br>
+ 	<br> 	<br>
+
+	<input type="date" >
+<br> 	<br>
+<div>
+  <input type="range" id="volume" name="volume"
+         min="0" max="11">
+  <label for="volume">Volume</label>
+</div>
+
+</body>
+
+
+</html>
