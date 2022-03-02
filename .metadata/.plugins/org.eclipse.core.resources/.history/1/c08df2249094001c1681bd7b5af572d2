@@ -1,0 +1,17 @@
+package java8concept;
+
+public class Pay {
+
+	public void creditPay() {
+		System.out.println("Instance Method");
+	}
+	
+	
+	
+	
+	public int debit() {
+		System.out.println("Instance Method");
+		return 0;
+	}
+
+}

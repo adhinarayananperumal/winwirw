@@ -1,0 +1,14 @@
+package threadpack;
+
+public class SMSSender implements Runnable {
+
+	@Override
+	public void run() {
+
+		// logic related to send email
+		System.out.println("SMSSender sending");
+		System.out.println("SMSSender sent successfully");
+
+	}
+
+}

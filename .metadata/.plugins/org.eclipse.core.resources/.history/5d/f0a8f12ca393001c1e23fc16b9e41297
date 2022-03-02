@@ -1,0 +1,29 @@
+package javabasics.expectionalexp;
+
+public class UserImpl {
+
+	float registerUser() {
+		
+		float percentage=0;
+
+		try {
+			int eng = 100;
+			int tam = 90;
+			int mat = 50;
+
+			int totalmark = eng + tam + mat;
+
+			percentage = totalmark / 3;
+
+			System.out.println("Total mark ..." + percentage);
+		} catch (Exception e) {
+			System.out.println("problem happened");
+
+		} finally {
+			System.out.println("finally block");
+		}
+		return percentage;
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package threadpack;
+
+public interface Tax {
+
+	void calculateTax(double salary);
+
+}

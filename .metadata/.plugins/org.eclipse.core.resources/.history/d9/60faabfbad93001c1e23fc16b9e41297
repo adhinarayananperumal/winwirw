@@ -1,0 +1,14 @@
+package javabasics.expectionalexp;
+
+public class UserTestThrows {
+
+	public static void main(String[] args) {
+
+
+		UserImpl userImpl = new UserImpl();
+		userImpl.getUser(null);
+		System.out.println("returned......");
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package javabasics.expectionalexp;
+
+public class ExpectionExample {
+
+	public static void main(String[] args) {
+
+		try {
+			String empName = "";
+			
+			char firstLetter = empName.charAt(0);
+
+			System.out.println("Exception demo .........");
+
+			System.out.println("String first character........." + firstLetter);
+
+			System.out.println("Program completed successfully........");
+
+		} catch (Exception e) {
+			System.out.println("Problem happened...");
+
+		}finally {
+			System.out.println("Finally......");
+		}
+		
+		System.out.println("method  ends........");
+
+	}
+
+}

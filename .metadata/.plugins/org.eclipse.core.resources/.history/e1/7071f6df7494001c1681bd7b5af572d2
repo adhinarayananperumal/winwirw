@@ -1,0 +1,16 @@
+package threadpack;
+
+import java.util.Random;
+
+public class IssueTicket {
+
+	String generateTicket() {
+
+		Random rd = new Random();
+		int id = rd.nextInt();
+		String ticket = "T" + id;
+		
+		return ticket;
+	}
+
+}

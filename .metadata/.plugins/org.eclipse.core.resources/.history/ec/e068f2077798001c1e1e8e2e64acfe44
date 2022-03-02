@@ -1,0 +1,11 @@
+package cloneexp;
+
+class Payment {
+	
+	int x, y;
+
+	Payment() {
+		x = 10;
+		y = 20;
+	}
+}

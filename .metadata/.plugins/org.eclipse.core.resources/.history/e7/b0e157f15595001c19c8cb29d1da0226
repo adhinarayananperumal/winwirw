@@ -1,0 +1,18 @@
+package collectionexample;
+
+import java.util.HashSet;
+
+public class HashSetExp {
+
+	public static void main(String[] args) {
+
+		// avoid duplicate
+		
+		HashSet<String> h = new HashSet();
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package javabasics.superexp;
+
+public class EmployeeDaoImplTest {
+
+	public static void main(String[] args) {
+
+		EmpPojo empPojo = new EmpPojo();
+		EmpDaoImpl empDaoImpl = new EmpDaoImpl();
+
+		try {
+			empPojo.setEmpId("Kumar");
+			empPojo.setName("101");
+			empPojo.setAge(23);
+
+			empDaoImpl.saveEmployee(empPojo);
+
+			System.out.println("Employee saved successfully");
+
+		} catch (DriverNotFoundExpection e) {
+			System.out.println("Please try again after some time....");
+		}
+	}
+}

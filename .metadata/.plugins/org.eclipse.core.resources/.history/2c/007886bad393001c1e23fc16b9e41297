@@ -1,0 +1,14 @@
+package threadpack;
+
+public class Thread1 extends Thread {
+	
+	
+	public void run() throws InterruptedException{
+		
+		System.out.println("Thread 1 running......");
+		Thread.sleep(1000);
+		System.out.println("Thread 1 a......");
+		
+	}
+
+}

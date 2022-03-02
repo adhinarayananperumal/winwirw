@@ -1,0 +1,29 @@
+package ioexp;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class WriteToFileExample {
+
+	public static void main(String[] args) {
+		FileOutputStream file = null;
+		try {
+			file = new FileOutputStream("D:\\testout.txt");
+			String s = "Welcome to javaTpoint.";
+			byte b[] = s.getBytes();// converting string into byte array
+			file.write(b);
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				file.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+		}
+
+	}
+
+}

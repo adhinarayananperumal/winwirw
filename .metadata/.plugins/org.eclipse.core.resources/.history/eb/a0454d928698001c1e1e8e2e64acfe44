@@ -1,0 +1,24 @@
+package java8concept.optionalexp;
+
+import java.util.Optional;
+
+public class CreateOptionalObjectDemo {
+	  public static void main(String[] args) {
+		  
+		  
+		  String genderDet = null;
+		  
+		  
+		  System.out.println("genderDet ...." + g);
+		  
+		  
+		  
+	    
+		  Optional<String> gender = Optional.of("MALE");
+		  
+		  
+		  
+		  
+		  
+	  }
+	}

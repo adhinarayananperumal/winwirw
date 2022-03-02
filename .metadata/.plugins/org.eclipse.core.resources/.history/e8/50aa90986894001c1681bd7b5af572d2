@@ -1,0 +1,25 @@
+package threadpack;
+
+public class EmailSender implements Runnable{
+
+	@Override
+	public void run() {
+
+		// logic related to  send email
+		System.out.println("Email sending started ");
+		
+		Thread.currentThread().setName("Task 1");
+	    System.out.println("starting: " + Thread.currentThread().getName());
+
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("Email sent successfully by " + Thread.currentThread().getName());
+
+		
+	}
+
+}

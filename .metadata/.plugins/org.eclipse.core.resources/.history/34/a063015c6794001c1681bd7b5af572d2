@@ -1,0 +1,30 @@
+package threadpack;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+public class Example {
+  public static void main(String[] args) {
+    System.out.println("Inside: " + Thread.currentThread().getName());
+    System.out.println("Creating ExecutorService");
+    ExecutorService executorservice = Executors.newFixedThreadPool(1);
+	System.out.println("Creating a Runnable");
+    
+    for(int i=1;i<=10;i++) {
+    
+    	Runnable runnable = () ->{
+    		System.out.println("Inside: " + Thread.currentThread().getName());
+    		System.out.println("Sending sms Ending");
+
+    		try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+    	};
+    	System.out.println("Submitting the task specified by the runnable to the executorservice");
+    	executorservice.submit(runnable);
+    }
+    
+  }
+}

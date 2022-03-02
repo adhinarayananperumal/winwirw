@@ -1,0 +1,16 @@
+package collectionexample;
+
+public class EmployeeDaoImpl {
+	
+	
+	
+	
+	
+	
+	EmployeePojo getEmployee(String empId){
+		
+	}
+	
+	
+
+}

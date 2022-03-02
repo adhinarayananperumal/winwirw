@@ -1,0 +1,9 @@
+package javabasics.superexp;
+
+public class DriverNotFoundExpection extends RuntimeException {
+	
+	DriverNotFoundExpection(){
+		super("Driver not found");
+	}
+
+}

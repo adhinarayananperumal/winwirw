@@ -1,0 +1,16 @@
+package threadpack;
+
+import java.util.Random;
+
+public class IssueTicket {
+	
+	int totalTicketIssued=0;
+
+	String generateTicket() {
+		Random rd = new Random();
+		totalTicketIssued++;
+		String ticket = "T" + totalTicketIssued;
+		return ticket;
+	}
+
+}

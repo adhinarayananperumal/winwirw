@@ -1,0 +1,9 @@
+package java8concept;
+
+public class Pay {
+	
+	public void myMethod(){  
+		System.out.println("Instance Method");  
+	    }  
+
+}

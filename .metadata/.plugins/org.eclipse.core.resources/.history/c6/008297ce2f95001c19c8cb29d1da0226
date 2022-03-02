@@ -1,0 +1,10 @@
+package ioexp.nio;
+
+public class NIOWriteToAFileTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

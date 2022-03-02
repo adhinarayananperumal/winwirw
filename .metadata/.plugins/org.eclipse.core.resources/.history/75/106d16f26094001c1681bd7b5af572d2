@@ -1,0 +1,26 @@
+package threadpack;
+
+public class AccountManagement {
+	
+	
+	
+	void transfer(String fromAC,String toAC,double amt){
+		
+		
+		//check minum balance
+		// debit form fromaccount
+		// send otp
+		//send email
+		//send SMS
+		
+		System.out.println("debited successfully");
+		
+		
+		System.out.println("transaction  successfully");
+
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,31 @@
+package cloneexp;
+
+public class CloneTest {
+
+	public static void main(String[] args) {
+
+		
+		
+		Payment payment = new Payment();
+		
+		payment.x=100;
+		
+		System.out.println(payment.x);
+		System.out.println(payment.y);
+
+		
+		try {
+			Payment payment2 = new Payment();
+			
+			System.out.println(payment2.x);
+			System.out.println(payment2.y);
+			
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}

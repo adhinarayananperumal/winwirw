@@ -1,0 +1,15 @@
+
+public class TestEqual {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		TestEqual testEqual= new TestEqual();
+		
+		System.out.println(testEqual);
+		System.out.println(testEqual.hashCode());
+
+	}
+
+}

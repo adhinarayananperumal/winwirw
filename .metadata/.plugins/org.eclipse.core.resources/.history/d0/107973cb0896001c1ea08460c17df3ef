@@ -1,0 +1,29 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class JdbcExample {
+
+	public static void main(String[] args) {
+
+		try {
+		Class.forName("com.mysql.jdbc.Driver");  
+		Connection con=DriverManager.getConnection(  
+		"jdbc:mysql://localhost:3306/sonoo","root","root");  
+		
+		String sql="insert into emp values(?,?,?)"; 
+		
+		PreparedStatement stmt=con.prepareStatement("insert into company values(?,?)");  
+		stmt.setInt(1,101);//1 specifies the first parameter in the query  
+		stmt.setString(2,"Ratan");  
+		
+		int i=stmt.executeUpdate(); 
+		}catch(SQLException e) {
+			e.printStackTrace();
+			
+		}
+		
+	}
+
+}

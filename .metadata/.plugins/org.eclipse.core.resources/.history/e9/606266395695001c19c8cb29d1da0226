@@ -1,0 +1,24 @@
+package collectionexample;
+
+import java.util.HashSet;
+
+public class HashSetExp {
+
+	public static void main(String[] args) {
+
+		// avoid duplicate
+		
+		Set<String> h = new HashSet();
+		
+		h.add("Mango");
+		h.add("apple");
+		h.add("orange");
+		h.add("apple");
+		
+		System.out.println(h.size());
+		
+		
+		
+	}
+
+}

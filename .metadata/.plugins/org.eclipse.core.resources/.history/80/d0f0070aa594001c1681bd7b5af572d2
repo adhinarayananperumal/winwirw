@@ -1,0 +1,36 @@
+package ioexp;
+
+import java.util.Scanner;
+
+public class ScanerExample {
+
+	Scanner myObj = null; // Create a Scanner object
+	String read = "";
+
+	void readMultipleLine() {
+
+		myObj = new Scanner(System.in); // Create a Scanner object
+
+		while (read != q) {
+			System.out.println("Enter values ");
+			String enterValues = myObj.nextLine(); // Read user input
+			System.out.println(":Username is " + enterValues); // Output user input
+
+		}
+
+	}
+
+	void readSingLine() {
+		try {
+			myObj = new Scanner(System.in); // Create a Scanner object
+			System.out.println("Enter username");
+			String userName = myObj.nextLine(); // Read user input
+			System.out.println(":Username is " + userName); // Output user input
+		} finally {
+			if (myObj != null) {
+				myObj.close();
+			}
+		}
+	}
+
+}

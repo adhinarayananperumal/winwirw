@@ -1,0 +1,28 @@
+package ioexp;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+
+public class CharacterStreamWriter {
+
+	public static void main(String[] args) throws IOException {
+
+		Writer out = new FileWriter("C:\\winwinr\\dataFile.txt");
+		
+		String msg = "The sample data";
+		
+		try {
+			out.write(msg);
+			System.out.println("Writing done!!!");
+		}
+		catch(Exception e) {
+			System.out.println(e);
+		}
+		finally {
+			out.close();
+		}
+	}
+}
+
+

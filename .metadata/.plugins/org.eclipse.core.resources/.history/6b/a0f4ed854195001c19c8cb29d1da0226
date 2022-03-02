@@ -1,0 +1,21 @@
+package ioexp.nio;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class CopyFile {
+
+	public static void main(String[] args) {
+		
+		try {
+		
+		Path from = Paths.get("c:\\winwin\\feed\\cc.txt");
+		Path to = Paths.get("c:\\winwin\\feed\\copy1.txt");
+	    Files.copy(from, to);
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

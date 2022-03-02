@@ -1,0 +1,13 @@
+package javabasics.expectionalexp;
+
+public class UserImplTest {
+
+	public static void main(String[] args) {
+
+		
+		UserImpl userImpl = new UserImpl();
+		userImpl.registerUser();
+		
+	}
+
+}

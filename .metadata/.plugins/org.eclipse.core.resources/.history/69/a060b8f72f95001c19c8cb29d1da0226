@@ -1,0 +1,13 @@
+package ioexp.nio;
+
+public class NIOWriteToAFileTest {
+
+	public static void main(String[] args) {
+
+		
+		
+		NIOWriteToAFile nioWriteToAFile = new NIOWriteToAFile();
+		nioWriteToAFile.writeToAFile();
+	}
+
+}

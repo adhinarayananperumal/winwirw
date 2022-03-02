@@ -1,0 +1,20 @@
+package javabasics.superexp;
+
+public class EmployeeDaoImplTest {
+
+	public static void main(String[] args) {
+
+		try {
+			EmpDaoImpl empDaoImpl = new EmpDaoImpl();
+
+			empDaoImpl.saveEmployee(null);
+
+			System.out.println("Employee saved successfully");
+
+		} catch (DriverNotFoundExpection e) {
+			System.out.println("PLease try again after some time....");
+		}
+
+	}
+
+}

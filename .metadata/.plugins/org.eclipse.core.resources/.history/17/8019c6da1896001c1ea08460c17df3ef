@@ -1,0 +1,10 @@
+package javabasics.superexp;
+
+public class EmployeeDaoImpl {
+	
+	
+	void saveEmployee(EmpPojo empPojo){
+		
+	}
+
+}
