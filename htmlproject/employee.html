@@ -1,0 +1,50 @@
+<html>
+
+<head>
+	<title>  WinWire Welcome Page </title>
+      
+      <link rel="stylesheet" href="appstyle.css">
+
+      <script src="scriptEmpForm.js"></script>
+</head>
+
+
+<body onload="cc()">
+
+
+<p id="empfv">   </p>
+
+<h3> Employee Registration Form </h3>
+<form name="myForm" action="employeeDashboard.html" onsubmit="return validateEmpForm()" method="post">
+Name: <input type="text" name="fname">
+<br>
+Age: <input type="number" name="age">
+
+<br><br>
+
+
+
+      <label for="gender"> Gender : </label>
+	<input type="radio"  name="gender" value="m"> Male </input>
+	<input type="radio"  name="gender" value="f"> Female </input>
+<br><br>
+
+<label for="education">Choose your education</label><br>
+	<select name="education" id="education" multiple>
+		<option value="">--Please choose an option--</option>
+		<option value="be">Bachelor of Engineering</option>
+		<option value="me">Master of Engineering</option>
+		<option value="mca">Master of Computer Application</option>
+		<option value="msc">Master of Science</option>
+		<option value="phd">Docterate</option>
+		<option value="dip">Diploma</option>
+	</select>
+<br>
+<br>
+
+<input type="submit" value="Submit">
+</form>
+
+</body>
+
+</html>
