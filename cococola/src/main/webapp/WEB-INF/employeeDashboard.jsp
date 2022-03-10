@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<%@include file="/WEB-INF/header.jsp" %>
 <p>  <a href="emp?action=registrationForm"> Show Employee RegistrationForm</a></p>
 
 <h3> Employee Dashboard</h3>

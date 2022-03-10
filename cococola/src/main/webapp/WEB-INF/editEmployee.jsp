@@ -9,6 +9,8 @@
 </head>
 <body>
 
+<%@include file="/WEB-INF/header.jsp" %>
+
 <p>  <a href="emp?action=list"> List Employee</a></p>
 
 

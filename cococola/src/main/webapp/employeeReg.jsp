@@ -10,6 +10,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+
+
+<%@include file="/WEB-INF/header.jsp" %>
+
+
+
 	<h3>  Employee Registration Form </h3>
 	
 	 
