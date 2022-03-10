@@ -62,7 +62,7 @@ public class EmployeeServlet extends HttpServlet {
 			rd.forward(request, response); 
 		}else {
 			System.out.println(" show emp registration form ...");
-			RequestDispatcher rd = request.getRequestDispatcher("employeeReg.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/employeeReg.jsp");
 			rd.forward(request, response);
 		}
 
@@ -101,7 +101,7 @@ public class EmployeeServlet extends HttpServlet {
 			request.setAttribute("saveStatus", "Employee Saved Successfully...........");
 			request.setAttribute("empId", employeePojo.getEmpId());
 
-			RequestDispatcher rd = request.getRequestDispatcher("employeeReg.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/employeeReg.jsp");
 			rd.forward(request, response);
 		}
 	}

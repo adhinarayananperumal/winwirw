@@ -8,6 +8,8 @@
 </head>
 <body>
 
+<%@include file="/WEB-INF/header.jsp" %>
+
 <h3> Employee Login  </h3>
 
    <form action="LoginServlet" method="post">

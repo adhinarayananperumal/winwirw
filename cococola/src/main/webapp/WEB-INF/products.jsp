@@ -25,7 +25,7 @@
 	
 	</form>
 	
-	<p>  <a href="ProductServlet"> Show peoduct list </a></p>
+	<p>  <a href="ProductServlet"> Show product list </a></p>
 	
 
 </body>

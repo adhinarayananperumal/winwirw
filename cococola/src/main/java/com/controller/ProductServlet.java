@@ -35,6 +35,12 @@ public class ProductServlet extends HttpServlet {
 
 		String item = request.getParameter("item");
 		
+		if(item==null) {
+			RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/productList.jsp");
+			rd.forward(request, response);
+		}
+		
+		
 		if(item.equals("laptop")){
 			productDet.add("HP");
 			productDet.add("Dell");

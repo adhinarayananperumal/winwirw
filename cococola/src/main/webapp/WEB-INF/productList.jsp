@@ -10,6 +10,8 @@
 
 <%@include file="/WEB-INF/header.jsp" %>
 
+<p>  <a href="emp?action=list"> Employee Management</a></p>
+
 
 <a href="ProductServlet?item=laptop">Laptop</a> <br>
 <a href="ProductServlet?item=mobile">Mobile</a> <br>
@@ -17,7 +19,7 @@
 <a href="ProductServlet?item=shoe">Shoes</a> <br>
 
 
-<a href="customerCart"> Check Out</a>
+<p>  <a href="customerCart"> Check Out</a> <p>
 
 
 </body>

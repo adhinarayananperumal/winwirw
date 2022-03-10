@@ -24,5 +24,10 @@
 		</c:forEach>
 	</table>
 
+<br>  <br>
+
+<p>  <a href="ProductServlet"> Show Product Category Available</a></p>
+
+
 </body>
 </html>
