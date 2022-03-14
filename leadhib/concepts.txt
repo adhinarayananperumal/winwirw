@@ -1,0 +1,20 @@
+
+
+crud
+entity life cycle
+JPA association
+
+
+bidirectional one to many  and many to one example in association
+customer entity
+order entity
+save customer
+save order
+pull customer and then pull order
+pull order and than customer.
+
+
+
+bidirectional one to many  and many to one example in association
+Employee entity
+monthly Salary issued details
