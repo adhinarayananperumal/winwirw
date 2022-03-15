@@ -6,6 +6,8 @@
 
 	<persistence-unit name="corebanking">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<mapping-file>META-INF/namedqueries.xml</mapping-file>
+
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.cj.jdbc.Driver" />
@@ -17,14 +19,15 @@
 				value="password" />
 			<property name="hibernate.show_sql" value="true" />
 
-			<property name="show_sql" value="true"/>
-						<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="show_sql" value="true" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
 
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.MySQL5Dialect" />
 		</properties>
+
 	</persistence-unit>
-	
+
 </persistence>
 
 

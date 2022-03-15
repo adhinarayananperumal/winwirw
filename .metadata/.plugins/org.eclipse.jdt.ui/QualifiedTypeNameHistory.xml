@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.nio.file.StandardOpenOption"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -16,6 +15,10 @@
     <fullyQualifiedTypeName name="javax.servlet.GenericServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.ServletConfig"/>
     <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
-    <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="com.entity.Country"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="javax.persistence.Query"/>
 </qualifiedTypeNameHistroy>
