@@ -1,4 +1,4 @@
-package com.entity.inheritanceexp;
+package com.entity.inheritanceexp.mappedscs;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
