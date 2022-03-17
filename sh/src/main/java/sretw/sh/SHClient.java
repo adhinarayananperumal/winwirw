@@ -18,9 +18,6 @@ public class SHClient {
 		
 		//obj.addDepartment();
 		
-		
-		
-		
 		}catch(Exception e) {
 			e.printStackTrace();
 			if(context!=null) {
