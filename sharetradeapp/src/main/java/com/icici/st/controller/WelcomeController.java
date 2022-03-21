@@ -66,6 +66,16 @@ public class WelcomeController {
 		return "redirect:/dashboard";// will redirect to viewemp request mapping
 	}
 	
-
-
+	
+	
+	@GetMapping("/deleteCustomer/{customerId}")
+    public String deleteCustomer(@PathVariable("customerId") int customerId,
+        Model model) {
+		
+	 cs.deleteCustomer(customerId);
+        
+	 return "redirect:/dashboard";
+	 }
+	
+	
 }

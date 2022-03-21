@@ -38,10 +38,16 @@ public class CustomerDaoImpl implements CustomerDao{
 
 	@Override
 	public void updateCustomer(Customer customer) {
-
 		Cus cus = entityManager.find(Cus.class, customer.getId());
 		cus.setLastName(customer.getLastName());
 		cus.setFirstName(customer.getFirstName());
+	}
+
+	@Override
+	public void deleteCustomer(int customerId) {
+		// TODO Auto-generated method stub
+		Cus cus = entityManager.getReference(Cus.class, customerId);
+		entityManager.remove(cus);
 	}
 
 }
