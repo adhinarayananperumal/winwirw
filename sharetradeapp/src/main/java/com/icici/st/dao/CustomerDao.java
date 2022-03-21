@@ -3,6 +3,7 @@ package com.icici.st.dao;
 import java.util.List;
 
 import com.icici.st.entity.Cus;
+import com.icici.st.model.Customer;
 
 public interface CustomerDao {
 
@@ -11,6 +12,9 @@ public interface CustomerDao {
 	List<Cus> listCustomer();
 	
 	Cus getCustomer(int cusId);
+	
+	void updateCustomer(Customer customer);
+
 
 
 }

@@ -6,6 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -55,6 +56,16 @@ public class WelcomeController {
         
         return "customerEditForm";
     }
+	
+	
+	@RequestMapping(value = "/editCustomer", method = RequestMethod.POST)
+	public String editCustomer(@ModelAttribute("customer") Customer customer) {
+		System.out.println(customer.getFirstName());
+		// save to database....
+		cs.updateCustomer(customer);
+		return "redirect:/dashboard";// will redirect to viewemp request mapping
+	}
+	
 
 
 }

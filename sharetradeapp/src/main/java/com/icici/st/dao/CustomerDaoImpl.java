@@ -8,6 +8,7 @@ import javax.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
 
 import com.icici.st.entity.Cus;
+import com.icici.st.model.Customer;
 
 
 
@@ -33,6 +34,14 @@ public class CustomerDaoImpl implements CustomerDao{
 	@Override
 	public List<Cus> listCustomer() {
 	     return (List<Cus>)entityManager.createQuery("select customer from Cus customer").getResultList();
+	}
+
+	@Override
+	public void updateCustomer(Customer customer) {
+
+		Cus cus = entityManager.find(Cus.class, customer.getId());
+		cus.setLastName(customer.getLastName());
+		cus.setFirstName(customer.getFirstName());
 	}
 
 }

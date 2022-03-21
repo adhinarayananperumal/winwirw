@@ -12,5 +12,7 @@ public interface CustomerService {
 	List<Customer> listCustomer();
 
 	Customer getCustomer(int cusId);
+	
+	void updateCustomer(Customer customer);
 
 }
