@@ -40,6 +40,9 @@ public class WelcomeController {
 	
 	@RequestMapping(value = "/dashboard", method = RequestMethod.GET)
 	public String dashboard(Model model) {
+		
+		
+		model.addAttribute("customerList", cs.listCustomer());
 	
 		return "dashboard";
 	}
