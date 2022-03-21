@@ -26,7 +26,7 @@ public class CustomerDaoImpl implements CustomerDao{
 	}
 
 	@Override
-	public Cus getCustomer(String cusId) {
+	public Cus getCustomer(int cusId) {
         return entityManager.find(Cus.class, cusId);
 	}
 

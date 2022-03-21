@@ -10,7 +10,7 @@ public interface CustomerDao {
 
 	List<Cus> listCustomer();
 	
-	Cus getCustomer(String cusId);
+	Cus getCustomer(int cusId);
 
 
 }

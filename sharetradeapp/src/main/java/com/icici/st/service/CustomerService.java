@@ -11,6 +11,6 @@ public interface CustomerService {
 	
 	List<Customer> listCustomer();
 
-	void getCustomer(String cusId);
+	Customer getCustomer(int cusId);
 
 }

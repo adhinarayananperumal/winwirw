@@ -32,8 +32,13 @@ public class CustomerServiceImpl implements CustomerService {
 	}
 
 	@Override
-	public void getCustomer(String cusId) {
+	public Customer getCustomer(int cusId) {
 		Cus cus = customerDao.getCustomer(cusId);
+		Customer customer = new Customer();
+		customer.setId(cus.getId());
+		customer.setFirstName(cus.getFirstName());
+		customer.setLastName(cus.getLastName());
+		return customer;
 	}
 
 	@Override

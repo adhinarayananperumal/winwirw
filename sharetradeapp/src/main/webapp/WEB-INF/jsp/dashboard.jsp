@@ -35,7 +35,7 @@
 						<td>${customer.lastName }</td>
 
 						<td><a class="btn btn-primary"
-							href="/sharetradeapp/showCustomertoEdit/${customer.id}">Edit</a>
+							href="/sharetradeapp/showCustomerEditForm/${customer.id}">Edit</a>
 							<a class="btn btn-warning"
 							href="/sharetradeapp/deleteCustomer/${customer.id}">Delete</a></td>
 					</tr>
