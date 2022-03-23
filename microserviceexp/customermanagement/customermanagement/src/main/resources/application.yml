@@ -22,11 +22,11 @@ management:
     enabled: false  #disable the spring security on the management endpoints like /env, /refresh etc. 
     
     logging:
-  file.name: c:/log/application.log
-  pattern:
+      file: c:/log/application.log
+      pattern:
     console: "%d [%t] %-5level %logger{36} - %msg%n"
     file: "%d [%t] %-5level %logger{36} - %msg%n"
-  level:
-    loanmanagement.customerservice: DEBUG
+    level:
+    amazononline: DEBUG
     org.springframework: ERROR
     org.hibernate: ERROR
