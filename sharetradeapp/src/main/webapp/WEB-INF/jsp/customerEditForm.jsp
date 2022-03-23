@@ -1,5 +1,7 @@
 <%@ include file="header.jsp"%>
-<body>
+
+
+	<a href="/sharetradeapp/dashboard"> Go to DashBoard</a>
 
 	<div class="container">
 

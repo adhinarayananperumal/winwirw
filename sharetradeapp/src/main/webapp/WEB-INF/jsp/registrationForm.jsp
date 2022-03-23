@@ -12,6 +12,10 @@
 </head>
 <body>
     <h3>${CusformName}</h3>
+    
+    
+    	<a href="/sharetradeapp/dashboard"> Go to DashBoard</a>
+    
 
   <form:form action="saveCustomer" modelAttribute="customer" method="post">
   <table>

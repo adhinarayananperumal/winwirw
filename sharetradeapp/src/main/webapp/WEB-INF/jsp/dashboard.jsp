@@ -15,11 +15,19 @@
 </head>
 <body>
 
+
+
+	<a href="/sharetradeapp/showRegForm"> Show Registration Form</a>
+
+
 	<div class="container">
+
+
 
 		<h2 class="text-center">Customer Dashboard</h2>
 
-		<table id="mytable" class="table table-striped text-center table-bordered"
+		<table id="mytable"
+			class="table table-striped text-center table-bordered"
 			style="margin: 10px; width: 60%;">
 			<thead>
 				<th scope="col">Customer Id</th>
